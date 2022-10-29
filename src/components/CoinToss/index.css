@@ -1,0 +1,95 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-toss-container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  max-width: 1000px;
+}
+@media screen and(min-width:992px) {
+  .coin-toss-container {
+    max-width: 500px;
+    padding: 64px;
+  }
+}
+.heading {
+  color: #a35200;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and(min-width:992px) {
+  .heading {
+    font-size: 48px;
+  }
+}
+.coin-result {
+  color: #334155;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and(min-width:992px) {
+  .coin-result {
+    font-size: 24px;
+  }
+}
+.img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+@media screen and(min-width:992px) {
+  .img {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 30px;
+  }
+}
+.toss-button {
+  background-color: #e2a139;
+  border: none;
+  color: #a35200;
+  font-size: 12px;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and(min-width:992px) {
+  .toss-button {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+}
+.coin-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.count {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
